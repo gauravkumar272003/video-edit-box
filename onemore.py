@@ -3,12 +3,10 @@ import random
 import numpy as np
 from ultralytics import YOLO
 
-# Load YOLOv8 model
-model = YOLO("yolov8n.pt")  # or yolov8s.pt or yolov8m.pt etc.
+model = YOLO("yolov8n.pt")  
 
-# Input/output video paths
-input_path = "20241012_182446.mp4"       # Change this to your input video name
-output_path = "d.mp4"     # Output will be saved here
+input_path = "2024.mp4"       # input video name
+output_path = "d.mp4"     # Output video with name
 
 # Open the input video
 cap = cv2.VideoCapture(input_path)
