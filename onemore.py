@@ -5,8 +5,8 @@ from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")  
 
-input_path = "2024.mp4"       # input video name
-output_path = "d.mp4"     # Output video with name
+input_path = "2024.mp4"    
+output_path = "d.mp4"  
 
 # Open the input video
 cap = cv2.VideoCapture(input_path)
